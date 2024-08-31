@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# **SportCrowd India**
 
-## Getting Started
+**SportCrowd India** is a decentralized crowdfunding platform aimed at supporting athletes across India. It allows users to fund athletes who have participated in various competitions (state, district, or national level) or to support a specific sport or competition. The platform leverages blockchain technology to ensure transparency, security, and fairness in the distribution of funds to deserving athletes.
 
-First, run the development server:
+## **Table of Contents**
+- [Overview](#overview)
+- [Features](#features)
+- [Project Structure](#project-structure)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technology Stack](#technology-stack)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [License](#license)
+- [Disclaimer](#disclaimer)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## **Overview**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+SportCrowd India enables fans, sports enthusiasts, and supporters to contribute funds directly to athletes who have excelled in various sports competitions. The platform offers users the ability to:
+- Fund athletes based on their performance in state, district, or national-level competitions.
+- Contribute to specific sports or competitions.
+- Track their transactions and see how their contributions are helping athletes achieve their goals.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## **Features**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Decentralized Crowdfunding:** Built on blockchain technology for transparency.
+- **Specific Funding:** Users can fund specific sports or competitions.
+- **Athlete Verification:** Athletes must provide proof of their achievements to receive funds.
+- **Secure Transactions:** All transactions are recorded on the blockchain.
+- **Dashboard:** A user-friendly dashboard for users to manage their contributions and see overall funds raised.
 
-## Learn More
+## **Project Structure**
 
-To learn more about Next.js, take a look at the following resources:
+The project is organized into the following directories and files:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### **Directories and Key Files**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **`frontend/`**: The Next.js frontend application where users can interact with the platform. This includes pages for viewing sports, contributing to funds, and tracking transactions.
 
-## Deploy on Vercel
+# **Technology Stack**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Frontend:** Next.js, React, Tailwind CSS
+- **Blockchain:** Solana
+- **Wallet Integration:** Solana Wallet Adapter
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# **Roadmap**
+
+- [x] Initial MVP development with basic crowdfunding features.
+- [ ] Integration of Solana smart contracts for decentralized funding.
+
+
+
+
+# **Disclaimer**
+
+Payments are currently not working. We are actively working on fixing this issue to ensure smooth and secure transactions. Stay tuned for updates!
+
+
+## **Installation**
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/lakshaypunia/cohort-web-3-hackthon-project.git
+   npm install
+   npm run dev
