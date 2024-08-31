@@ -112,10 +112,12 @@ const Profile = () => {
                 const transaction = new Transaction().add(
                     SystemProgram.transfer({
                         fromPubkey : publicKey,
-                    toPubkey : new PublicKey(process.env.fundpublickey),
+                    toPubkey : new PublicKey("7y7QvPYHoPKr3SX3bKD7zP9RZJYzMV2mRASbHKQsWqw1"),
                     lamports : 100000000,
                     })
+                    
                 )
+                console.log("working")
             }} className="text-center h-fit py-2 px-12 text-xl font-bold border-gray-700 border-2 rounded-md bg-black hover:bg-purple-500 transition-all duration-300">Fund 0.1sol</button>
             </div>
         </div>
